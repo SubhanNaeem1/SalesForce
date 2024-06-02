@@ -1,0 +1,255 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+/* Main Container */
+.main {
+    height: 100%;
+    width: 100%;
+}
+
+/* Header */
+.header {
+    height: 15%;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    height: 50%;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+    margin: 0 50px 0 10px;
+}
+
+.text {
+    color: #032d60;
+    padding: 18px;
+    display: flex;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+.text:hover {
+    color: #0176d3;
+}
+
+.contact {
+    font-weight: lighter;
+    margin: 0 5px 0 120px;
+    color: #032d60;
+    transition: color 0.3s;
+}
+
+.contact:hover {
+    color: #0176d3;
+}
+
+.contact p {
+    padding-bottom: 3px;
+}
+
+.icon {
+    padding: 10px;
+    border-radius: 100%;
+    color: #032d60;
+    margin-left: 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.icon:hover {
+    background-color: rgb(220, 240, 234);
+    color: #0176d3;
+}
+
+.login {
+    padding: 10px;
+    border-radius: 50px;
+    display: flex;
+    color: #032d60;
+    margin-left: 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.login:hover {
+    background-color: rgb(220, 240, 234);
+    color: #0176d3;
+}
+
+.try {
+    background-color: #2e844a;
+    padding: 12.5px 24px;
+    color: white;
+    border-radius: 3px;
+    font-weight: bold;
+    margin: 0 10px 0 20px;
+    transition: background-color 0.3s;
+}
+
+.try:hover {
+    background-color: #0b2213;
+}
+
+/* Fake Header to Offset Fixed Header */
+.fakeheader {
+    height: 15%;
+    width: 100%;
+    background-color: white;
+}
+
+/* Page 1 Content */
+.page1 {
+    height: 85%;
+    width: 100%;
+}
+
+.strip {
+    width: 100%;
+    height: 10%;
+    background-color: #032d60;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.strip p {
+    font-weight: bolder;
+}
+
+.strip u {
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.content {
+    width: 100%;
+    height: 74%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.box1 {
+    height: 100%;
+    width: 49%;
+    background-color: white;
+}
+
+.heading {
+    width: 100%;
+    height: 16%;
+    color: #032d60;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading h1 {
+    font-weight: 600;
+}
+
+.box1 h1 {
+    font-weight: 600;
+    color: #032d60;
+    font-size: 45px;
+    margin: 50px 0 30px 30px;
+}
+
+.box1 p {
+    font-weight: lighter;
+    color: #000000;
+    font-size: 24px;
+    margin: 30px 0 30px 30px;
+}
+
+.btn {
+    display: flex;
+}
+
+.btn1 {
+    font-weight: 600;
+    text-align: center;
+    margin: 10px;
+    margin-left: 30px;
+    width: 165.81px;
+    padding: 15px 20px;
+    color: white;
+    background-color: #0176d3;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s;
+}
+
+.btn1:hover {
+    background-color: #032d60;
+}
+
+.btn2 {
+    font-weight: 600;
+    text-align: center;
+    margin: 10px;
+    width: 165.81px;
+    padding: 15px 20px;
+    color: #0176d3;
+    border: 2px solid #0176d3;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.btn2:hover {
+    background-color: #ebeff1;
+    color: #032d60;
+    border-color: #032d60;
+}
+
+.box2 {
+    height: 100%;
+    width: 49%;
+    background-color: white;
+    position: relative;
+}
+
+.box2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.box2 iframe {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 550px;
+    height: 300px;
+    border: none;
+    border-radius: 10px;
+}
+
+/* Page 2 Content */
+.page2 {
+    height: 85%;
+    width: 100%;
+}
